@@ -1,0 +1,340 @@
+/* 2.0.5 fix comment form separate from footer */
+.comment-form {
+	display: table;
+	margin-bottom: 30px;
+}
+.wrap_private{
+	width: 960px;
+	padding: 0 0 30px 50px;
+	color: white;
+	margin: auto;
+}
+.w_private {
+	width: 98%;
+	height: auto;
+	background-color: #063958;
+	/**/
+	font-size: 14px;
+}
+.wrap #icon-options-PlusCaptcha {
+	background: url("../images/pluscaptcha_logo_black_orange.png") no-repeat scroll left top;
+  	background-size: 186px 71px;
+	float: left;
+	height: 71px;
+	margin: 0;
+	width: 186px;
+}
+
+#boxinstructions {
+	width: 960px; 
+	height: 230px; 
+	background-image: url("../images/instructions.png");
+}
+#personalizacion {
+	width: 960px; 
+	height: 230px; 
+	background-image: url("../images/ejemplo-personalizacion.png"); 
+	background-position: left center; 
+	background-repeat: no-repeat;
+}
+
+#plscptf_contact_form input.text, 
+#plscptf_contact_form textarea,
+#plscptf_contact_message, 
+#plscptf_contact_name, 
+#plscptf_contact_email,
+#plscptf_contact_subject {
+	width:324px;
+}
+#plscptf_contact_form div.error-form {
+  text-align: left; color: red;  
+}
+#plscptf_contact_form div.input {
+  text-align: left;
+  margin-bottom: 11px;
+  border: 0px solid red;
+}
+#plscptf_contact_form div.input .text {
+  padding: 2px 2px 2px 2px;
+}
+
+#plscptf_contact_form div.input-label {
+  text-align: left;
+  padding-bottom: 0px;
+  border: 0px solid green;
+}
+/*
+.admin-menu-item {
+  background: no-repeat 0 0 url(../images/sc-menu.png);
+  padding-left: 20px;
+}
+*/
+#adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16.png") no-repeat scroll center center transparent;
+}
+.admin-color-classic #adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16_b.png") no-repeat scroll center center transparent;
+}
+#adminmenu #toplevel_page_bws_plugins:hover div.wp-menu-image,#adminmenu #toplevel_page_bws_plugins.wp-has-current-submenu div.wp-menu-image
+{
+	background: url("../images/icon_16_c.png") no-repeat scroll center center transparent;
+}	
+.wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36.png") no-repeat scroll left top transparent;
+}
+.admin-color-classic .wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36_b.png") no-repeat scroll left top transparent;
+}
+#toplevel_page_bws_plugins .wp-submenu .wp-first-item, .plscptf_hidden
+{
+	display:none;
+}
+.plscptf_info {
+	color: rgb(136, 136, 136); 
+	font-size: 10px;
+	clear:both;
+}
+#plscptf_contact_attachment {
+	margin-bottom:0;
+}
+#plscptf_contact_send_copy, #plscptf_attachment, #plscptf_send_copy, #plscptf_change_label {
+	position:relative;
+	top:2px;
+}
+#plscptf_attachment, #plscptf_send_copy, #plscptf_change_label {
+	position:relative;
+	top:3px;
+}
+#plscptf_select_email_user, #plscptf_select_email_custom {
+	position:relative;
+	top:5px;
+}
+.plscptf_change_label_block input, .plscptf_action_after_send_block input {
+	margin: 1px 0;
+}
+
+.plscptf_action_after_send_block  input[type="text"] {
+	width:250px;
+}
+
+/*
+.widget-container #plscptf_contact_form input.text, 
+.widget-container #plscptf_contact_form textarea, 
+.widget-container #plscptf_contact_message, 
+.widget-container #plscptf_contact_name, 
+.widget-container #plscptf_contact_email, 
+.widget-container #plscptf_contact_subject,
+.textwidget #plscptf_contact_form input.text,
+.textwidget #plscptf_contact_form textarea, 
+.textwidget #plscptf_contact_message, 
+.textwidgetr #plscptf_contact_name, 
+.textwidget #plscptf_contact_email, 
+.textwidget #plscptf_contact_subject{
+    width: 200px !important;
+}
+
+.form-table td.plscptf_display_add_info_block {
+	padding:4px 10px 8px;
+}
+*/
+
+#PlusCaptcha-wrapper {
+  padding-top:10px;
+  clear: both;
+}
+
+.login form select {
+  color: #555;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 1;
+  width: 100%;
+  padding: 3px;
+  margin-top: 2px;
+  margin-right: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #E5E5E5;
+  background: #FBFBFB;
+  outline: 0;
+}
+
+#login {
+  width: 400px;
+}
+
+#captchi {
+  width: auto;
+  min-width: 150px !important;
+  max-height: 600px !important;
+  height: auto !important;
+}
+#captchi ul {
+  margin-top: 5px !important;
+  display: inline-block;
+}
+#captchi ul li {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  float: left;
+  width: 48px;
+  height:48px;
+  outline: 0 none;
+  font-style: inherit;
+  font-weight: inherit;
+}
+#captchi div {
+  word-break: keep-all !important;
+  white-space: normal !important;
+  overflow: visible !important;
+}
+#captchi span.holder {
+  display: block;
+  margin: 0  !important;
+  padding: 0 !important;
+  position: relative !important;
+  top: 0px !important;
+}
+span.error {
+  text-align: left; 
+  color: red;
+  margin-left: 10px;
+}
+.ui-draggable-dragging {
+  z-index: 9999 !important;
+  position:relative;
+}
+
+
+/************* General ************/
+
+	#wpbody-content {
+		/**/
+	}
+        /*
+	label {
+		text-shadow: none;
+		color: white;
+	}
+        */
+	.informacion {
+		background-color: #dfdfe0;
+		/**/
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		/**/
+		display: table;
+		/**/
+		width: 100%;
+		/**/
+		margin-top: 30px;
+		margin-bottom: 30px;
+		/**/
+		color: #393939;
+	}
+	.description {
+		color: white;
+		/**/
+		padding-left: 20px;
+		/**/
+		display: block;
+	}
+	.form-table th {
+		width: 300px;
+	}
+        /*
+	input {
+		float: left;
+		margin-right: 10px;
+	}
+        */
+	/* Style del UUID box */
+	#uuid_key_speci_to_generate_captchas{
+		width: 160px;
+		font-family: Arial;
+		font-size: 24px;
+		color: grey;
+		padding: 5px 10px 5px 10px;
+		border: 1px solid grey;
+		/**/
+		text-align: center;
+	}
+	/* Box Personalización */
+	#right-content-pers {
+		width: 500px; 
+		height: 230px; 
+		display: table; 
+		/**/
+		margin-left: 460px;
+	}
+	#right-content-pers span{
+		font-family: Verdana;
+		font-size: 18px;
+		line-height: 35px;
+		color: white;
+	}
+	#right-content-pers span a{
+		background-color: #027ac2;
+		color: white;
+		padding: 3px 5px 3px 5px;
+	}
+	#right-content-pers span a:hover{
+		background-color: #086197;
+	}
+	#right-content-pers span strong{
+		border: 1px solid white;
+		padding: 3px 5px 3px 5px;
+	}
+	
+/*********************** Short Data **************************/
+
+		.ShortData {
+			width: 690px;
+			height: 535px;
+			/**/
+			margin: auto;
+			margin-top: 6%;
+			margin-bottom: 5%;
+			/**/
+			display: table;
+			/**/
+			background-color: #00609b;
+		}
+		.ShortData .LogoRun{
+			width: 100%;
+			height: 104px;
+			margin-top: -52px;
+			/**/
+			background-image: url("../images/running-icon.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			/**/
+			display: table;
+		}
+		.ShortData .LogoPaused{
+			width: 100%;
+			height: 104px;
+			margin-top: -52px;
+			/**/
+			background-image: url("../images/paused-icon.png");
+			background-repeat: no-repeat;
+			background-position: center center;
+			/**/
+			display: table;
+		}
+	.comment-form-author label {
+		color: #000000;
+	}
+	.comment-form-email label {
+		color: #000000;
+	}
+	.comment-form-url label {
+		color: #000000;
+	}
+	.comment-form-comment label {
+		color: #000000;
+	}
